@@ -1,0 +1,12 @@
+Acceptance Criteria - Fix DD Timeouts
+
+• No timeouts on servers with 50+ databases
+• All queries complete within 10 second SLA
+• Query data collected for all databases (no gaps)
+• YAML config updated for new agent deadlock handling
+• Event session created on database
+• Dashboard shows complete data without missing metrics
+• No timeout errors in logs
+• Successfully tested with 50+ database environment
+• Event session overhead under 1%
+• Rollback procedure documented and tested

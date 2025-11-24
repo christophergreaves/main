@@ -1,0 +1,20 @@
+Acceptance Criteria - Update Setup Scripts for Non-NVMe Drives
+
+• Setup scripts updated to detect and use available drives from start
+• SQL installation uses correct drive paths without post-install moves
+• INI files configured with correct default directories on initial setup
+• D:\Data directory created before SQL install
+• D:\Backup directory created before SQL install
+• Temp DB location properly set to correct drive
+• SQL install succeeds without manual directory changes
+• No file/DB moves required after installation
+• Script validates drive existence before attempting install
+• Setup fails gracefully if required drives not present
+• All affected configuration files identified and updated
+• Scripts handle both NVMe and non-NVMe drive scenarios
+• Default data directories point to D:\Data
+• Default backup directories point to D:\Backup
+• Default temp DB directories on appropriate drive
+• No hardcoded paths - all drive locations configurable
+• Successfully tested on servers with pre-mounted drives
+• Rollback procedure documented for failed installs

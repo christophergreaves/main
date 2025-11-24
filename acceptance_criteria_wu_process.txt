@@ -1,0 +1,17 @@
+Acceptance Criteria - New WU Process Setup
+
+• New WU process functionality added to server setup scripts
+• Task scheduler XML created and deployed
+• New scheduled job configured and running
+• Main script fully configured for WU process
+• All scripts are idempotent/rerunnable without errors
+• Environment-specific configuration working (dev/test/prod)
+• Scripts detect current environment and apply correct settings
+• No manual intervention required for re-runs
+• Task scheduler job runs on expected schedule
+• Main script integrates with existing setup workflow
+• Configuration files separated by environment
+• Rollback procedure documented
+• Successfully tested in all target environments
+• No duplicate jobs created on re-run
+• Logging implemented for troubleshooting
