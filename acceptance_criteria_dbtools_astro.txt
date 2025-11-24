@@ -1,0 +1,26 @@
+Acceptance Criteria - DBTools Astro Setup Page
+
+• DBTools page created for Astro setup
+• Input field for pkalclient (Advlynx) accepts valid values
+• Input field for ticket number accepts string input
+• Frontend validation checks all required fields filled
+• Frontend validation ensures proper data format
+• Frontend validation displays user-friendly error messages
+• Controllers created to handle form submission
+• Controllers validate input data server-side
+• Models created for database operations
+• Database tables/objects created for Astro setup data
+• Logging tables created to track all operations
+• Audit trail captures user, timestamp, and changes
+• Permissions implemented on all controllers
+• Only authorized users can access Astro setup page
+• Roles created with appropriate permissions assigned
+• SQL Agent job created to process new Astro setups
+• Agent job runs on scheduled interval
+• Agent job processes pending records successfully
+• Error handling for invalid data submissions
+• Success/failure notifications displayed to user
+• Data persists correctly in database
+• Page responsive and works on standard browsers
+• Setup status tracking (pending/in-progress/completed)
+• Rollback capability for failed setups
