@@ -1,0 +1,27 @@
+Acceptance Criteria - DBTools Subadvisor Linking Page
+
+• DBTools page created with form for subadvisor linking
+• Input field for Pkalclient (Advlynx) accepts valid values
+• Input field for subadvisor accepts text input
+• Input field for ID accepts CSV string format
+• Input field for ticket number accepts string input
+• Frontend validation prevents trailing commas in CSV
+• Frontend validation checks all required fields filled
+• Frontend validation displays user-friendly error messages
+• Controllers created to handle form submission
+• Controllers validate input data server-side
+• Models created for database operations
+• Database tables/objects created for subadvisor linking
+• Logging tables created to track all operations
+• Audit trail captures user, timestamp, and changes
+• Permissions implemented on all controllers
+• Only authorized users can access the page
+• Roles created with appropriate permissions assigned
+• SQL Agent job created to process new entries
+• Agent job runs on scheduled interval
+• Agent job processes pending records successfully
+• Error handling for invalid data submissions
+• Success/failure notifications displayed to user
+• Data persists correctly in database
+• CSV parsing handles edge cases (quotes, spaces)
+• Page responsive and works on standard browsers
